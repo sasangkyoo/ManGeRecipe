@@ -159,7 +159,7 @@ ID,Serving,Preparation_Time,Difficulty,Ingredient,Condiment
 
 ## 9. 🐍 사용 기술
 
-- `Python 3.x`
+- `Python 3.11.9`
 - 주요 라이브러리:
   - `requests`
   - `BeautifulSoup (bs4)`
