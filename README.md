@@ -135,7 +135,9 @@
 ## 8. 🗃️ 저장 결과 예시
 
 **food_data.csv (상위 5개)**:
+
 ID,Title,Author,View,Image
+
 7057555,사먹지 말고 집에서 담궈 드세요! ‘새우장덮밥’ 레시피 입니다.,쿠킹빈,5,https://recipe1.ezmember.co.kr/cache/recipe/2025/07/10/a0fa71f4a73dd190e3b2d9dd3332db3a1_m.jpg
 7057554,집에서 제대로 먹는 쌈밥 ‘호박잎쌈밥’ 레시피 입니다.,쿠킹빈,9,https://recipe1.ezmember.co.kr/cache/recipe/2025/07/10/578e664576095ac79a401f364ceaac171_m.jpg
 7057553,참나물 듬뿍 활용 맛있는 참나물훈제오리파스타,잇프피,8,https://recipe1.ezmember.co.kr/cache/recipe/2025/07/10/da1e365dbde49c4613cb0056e4b3fd481_m.png
@@ -144,7 +146,9 @@ ID,Title,Author,View,Image
 ...
 
 **recipe_data.csv (상위 5개)**:
+
 ID,Serving,Preparation_Time,Difficulty,Ingredient,Condiment
+
 7057555,1,60분,아무나,"[주 재료]: 새우, 간장, 물, 청주, 맛술, 매실청, 설탕, 사과, 양파, 대파, 청양고추, 마늘, 생강, 통후추, 다시마",양념 없음
 7057554,1,20분,아무나,"[쌈장 재료]: 된장, 고추장, 다진파, 다진마늘, 올리고당, 참기름, 통깨, 맛술",양념 없음
 7057553,1,15분,아무나,"[재료]: 파스타면, 훈제오리, 참나물, 올리브오일, 들기름, 다진 마늘, 편 마늘, 페페론치노, 소금, 후추",양념 없음
