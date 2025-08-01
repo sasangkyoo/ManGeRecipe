@@ -15,11 +15,17 @@ class RecipeDataAnalyzer:
         
     def basic_statistics(self) -> Dict:
         """기본 통계 정보"""
+        # 조회수 처리 (문자열에서 숫자 추출)
+        view_counts = []
+        for view_str in self.food_df['View']:
+            if pd.notna(view_str) and str(view_str).isdigit():
+                view_counts.append(int(view_str))
+        
         stats = {
             '총 레시피 수': len(self.food_df),
             '상세 정보 수집 성공률': len(self.recipe_df) / len(self.food_df) * 100,
             '고유 작성자 수': self.food_df['Author'].nunique(),
-            '평균 조회수': self.food_df['View'].str.extract(r'(\d+)').astype(float).mean(),
+            '평균 조회수': sum(view_counts) / len(view_counts) if view_counts else 0,
             '난이도별 분포': self.recipe_df['Difficulty'].value_counts().to_dict(),
             '인분별 분포': self.recipe_df['Serving'].value_counts().head(10).to_dict()
         }
@@ -196,23 +202,31 @@ class RecipeDataAnalyzer:
 def main():
     """메인 함수"""
     try:
-        # 가장 최근 CSV 파일 찾기
+        # CSV 파일 찾기 (기존 파일명과 새로운 파일명 모두 지원)
         import glob
-        food_files = glob.glob("food_data_*.csv")
-        recipe_files = glob.glob("recipe_data_*.csv")
+        import os
         
-        if not food_files or not recipe_files:
-            print("CSV 파일을 찾을 수 없습니다. 먼저 크롤링을 실행해주세요.")
-            return
+        # 기존 파일명 먼저 확인
+        if os.path.exists("food_data.csv") and os.path.exists("recipe_data.csv"):
+            food_file = "food_data.csv"
+            recipe_file = "recipe_data.csv"
+        else:
+            # 새로운 파일명 패턴 확인
+            food_files = glob.glob("food_data_*.csv")
+            recipe_files = glob.glob("recipe_data_*.csv")
+            
+            if not food_files or not recipe_files:
+                print("CSV 파일을 찾을 수 없습니다. 먼저 크롤링을 실행해주세요.")
+                return
+            
+            # 가장 최근 파일 선택
+            food_file = max(food_files)
+            recipe_file = max(recipe_files)
         
-        # 가장 최근 파일 선택
-        latest_food_file = max(food_files)
-        latest_recipe_file = max(recipe_files)
-        
-        print(f"분석할 파일: {latest_food_file}, {latest_recipe_file}")
+        print(f"분석할 파일: {food_file}, {recipe_file}")
         
         # 분석 실행
-        analyzer = RecipeDataAnalyzer(latest_food_file, latest_recipe_file)
+        analyzer = RecipeDataAnalyzer(food_file, recipe_file)
         
         # 리포트 생성 및 저장
         analyzer.save_analysis()

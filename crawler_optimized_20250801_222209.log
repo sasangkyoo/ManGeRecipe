@@ -1,0 +1,56 @@
+2025-08-01 22:22:09,856 - INFO - 최적화된 크롤링 시작
+2025-08-01 22:22:09,856 - INFO - 1단계: 레시피 목록 수집 시작
+2025-08-01 22:22:09,914 - INFO - 페이지 1 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=1
+2025-08-01 22:22:09,914 - INFO - 페이지 11 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=11
+2025-08-01 22:22:09,922 - INFO - 페이지 21 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=21
+2025-08-01 22:22:11,571 - INFO - 페이지 11에서 40개 레시피 수집
+2025-08-01 22:22:11,649 - INFO - 페이지 1에서 40개 레시피 수집
+2025-08-01 22:22:11,743 - INFO - 페이지 21에서 40개 레시피 수집
+2025-08-01 22:22:12,705 - INFO - 페이지 2 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=2
+2025-08-01 22:22:13,453 - INFO - 페이지 22 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=22
+2025-08-01 22:22:13,535 - INFO - 페이지 12 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=12
+2025-08-01 22:22:13,822 - INFO - 페이지 2에서 40개 레시피 수집
+2025-08-01 22:22:14,727 - INFO - 페이지 12에서 40개 레시피 수집
+2025-08-01 22:22:14,837 - INFO - 페이지 22에서 40개 레시피 수집
+2025-08-01 22:22:16,331 - INFO - 페이지 3 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=3
+2025-08-01 22:22:16,856 - INFO - 페이지 13 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=13
+2025-08-01 22:22:16,972 - INFO - 페이지 23 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=23
+2025-08-01 22:22:18,171 - INFO - 페이지 3에서 40개 레시피 수집
+2025-08-01 22:22:18,611 - INFO - 페이지 13에서 40개 레시피 수집
+2025-08-01 22:22:18,800 - INFO - 페이지 23에서 40개 레시피 수집
+2025-08-01 22:22:20,229 - INFO - 페이지 24 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=24
+2025-08-01 22:22:20,602 - INFO - 페이지 14 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=14
+2025-08-01 22:22:20,808 - INFO - 페이지 4 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=4
+2025-08-01 22:22:21,373 - INFO - 페이지 24에서 40개 레시피 수집
+2025-08-01 22:22:21,810 - INFO - 페이지 14에서 40개 레시피 수집
+2025-08-01 22:22:22,005 - INFO - 페이지 4에서 40개 레시피 수집
+2025-08-01 22:22:23,410 - INFO - 페이지 25 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=25
+2025-08-01 22:22:24,409 - INFO - 페이지 25에서 40개 레시피 수집
+2025-08-01 22:22:24,436 - INFO - 페이지 15 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=15
+2025-08-01 22:22:24,762 - INFO - 페이지 5 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=5
+2025-08-01 22:22:25,618 - INFO - 페이지 15에서 40개 레시피 수집
+2025-08-01 22:22:25,823 - INFO - 페이지 5에서 40개 레시피 수집
+2025-08-01 22:22:27,163 - INFO - 페이지 16 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=16
+2025-08-01 22:22:28,019 - INFO - 페이지 6 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=6
+2025-08-01 22:22:28,259 - INFO - 페이지 16에서 40개 레시피 수집
+2025-08-01 22:22:29,067 - INFO - 페이지 6에서 40개 레시피 수집
+2025-08-01 22:22:29,564 - INFO - 페이지 17 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=17
+2025-08-01 22:22:30,503 - INFO - 페이지 17에서 40개 레시피 수집
+2025-08-01 22:22:30,676 - INFO - 페이지 7 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=7
+2025-08-01 22:22:31,583 - INFO - 페이지 7에서 40개 레시피 수집
+2025-08-01 22:22:32,538 - INFO - 페이지 18 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=18
+2025-08-01 22:22:33,539 - INFO - 페이지 18에서 40개 레시피 수집
+2025-08-01 22:22:34,449 - INFO - 페이지 8 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=8
+2025-08-01 22:22:34,689 - INFO - 페이지 19 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=19
+2025-08-01 22:22:35,549 - INFO - 페이지 8에서 40개 레시피 수집
+2025-08-01 22:22:35,809 - INFO - 페이지 19에서 40개 레시피 수집
+2025-08-01 22:22:37,332 - INFO - 페이지 20 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=20
+2025-08-01 22:22:38,020 - INFO - 페이지 9 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=9
+2025-08-01 22:22:38,571 - INFO - 페이지 20에서 40개 레시피 수집
+2025-08-01 22:22:39,375 - INFO - 페이지 9에서 40개 레시피 수집
+2025-08-01 22:22:41,996 - INFO - 페이지 10 처리 중... URL: https://www.10000recipe.com/recipe/list.html?order=date&page=10
+2025-08-01 22:22:43,390 - INFO - 페이지 10에서 40개 레시피 수집
+2025-08-01 22:22:45,859 - INFO - 총 1000개의 레시피 정보 수집 완료
+2025-08-01 22:22:45,859 - INFO - 2단계: 레시피 상세 정보 수집 시작
+2025-08-01 22:26:17,940 - WARNING - 요청 실패 (시도 1/3): HTTPSConnectionPool(host='www.10000recipe.com', port=443): Max retries exceeded with url: /recipe/7059026 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2025-08-01 22:28:20,862 - WARNING - 요청 실패 (시도 1/3): ('Connection aborted.', ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None))
