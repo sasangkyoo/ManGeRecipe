@@ -1,0 +1,46 @@
+# 크롤러 설정 파일
+crawler:
+  # 기본 설정
+  max_pages: 25
+  max_retries: 3
+  timeout: 15
+  
+  # 지연 설정 (초)
+  min_delay: 3
+  max_delay: 7
+  retry_delay_min: 5
+  retry_delay_max: 10
+  
+  # URL 설정
+  base_url: "https://www.10000recipe.com"
+  recipe_list_url: "https://www.10000recipe.com/recipe/list.html?order=date&page="
+  recipe_detail_url: "https://www.10000recipe.com/recipe/"
+  
+  # 헤더 설정
+  headers:
+    User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+    Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+    Accept-Language: "ko-KR,ko;q=0.9,en;q=0.8"
+    Accept-Encoding: "gzip, deflate, br"
+    Connection: "keep-alive"
+    Upgrade-Insecure-Requests: "1"
+
+# 로깅 설정
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(levelname)s - %(message)s"
+  file_encoding: "utf-8"
+
+# 데이터 검증 설정
+validation:
+  required_fields:
+    recipe_list: ["ID", "Title"]
+    recipe_detail: ["ID"]
+  invalid_values: ["정보 없음", "제목 없음", "저자 없음", ""]
+
+# 파일 저장 설정
+output:
+  csv_encoding: "utf-8-sig"
+  json_encoding: "utf-8"
+  include_timestamp: true
+  save_json_backup: true 
